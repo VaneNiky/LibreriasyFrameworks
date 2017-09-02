@@ -1,0 +1,88 @@
+body{
+  background:#2196f3;
+  background-image:url(../img/fondo.jpg);
+  background-repeat:no-repeat;
+  background-position: 0 110px;
+  background-size:100% 100%;
+  background-attachment:fixed;
+}
+.logo{
+  width: 150px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.contenedor-menu{
+  margin-top: 15px;
+  margin-bottom:10px;
+}
+
+.nav-title{
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-style: oblique;
+}
+.collection{
+  border: none;
+}
+.collection .collection-item{
+  background: none;
+  border: none;
+}
+div[class*="columna"]{
+  margin-left: 10px;
+}
+.contenedor-info{
+  margin-top: 10px;
+}
+.imagen{
+  shape-outside: url("grecia.jpg");
+  margin-right: 1rem;
+  float: left;
+}
+.flow-text{
+  font-size: 1.1rem;
+  font-size-adjust: auto;
+  text-align: justify;
+  letter-spacing: 1.5px;
+}
+.card{
+  background: none;
+}
+h6{
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+input[type="email"], textarea.materialize-textarea{
+  border-bottom:  1px solid #ffecb3;
+  font-size: 1.5rem;
+}
+.card-title{
+  font-size: 24px;
+  font-size-adjust: auto;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .nav-title{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: left;
+    font-style: oblique;
+  }
+  .btn{
+    width: 30%;
+  }
+  div[class*="columna"]{
+    margin-right: 10px;
+    min-height: 20rem;
+  }
+  .imagen{
+    shape-outside: url("grecia.jpg");
+    margin-bottom: 1rem;
+    float: left;
+  }
+
+}
